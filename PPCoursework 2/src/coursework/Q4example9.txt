@@ -1,0 +1,55 @@
+public class Q4Example9 {
+/* ERROR: else does not have associated if */
+	public static void main(String[] args) {
+		
+		String cool = "cool";
+		int a = 4, b = 10/3, x = 2, y = 20;
+		int z = 2;
+		double c = 0.5; 
+		double d = a+c*10-2;
+
+		for (int i=1; i<6; i=i+1) {
+		dayofweek(i);
+		while (i<2) { System.out.println("i is: " + i); i++; continue;}} //end for loop
+		
+		if (x%2 == 0) {
+			System.out.println("The number x is even");
+		} else System.out.println("The number x is odd");
+		
+		if (y > 0 && y < 20) {
+			System.out.println("The number y is greater than 0 and less than 20");
+		} else System.out.println("The number y is not greater than 0 and less than 20");
+		
+		if (y >= 0 && y <= 20) {
+			System.out.println("The number y is greater than or equal to 0 and less than or equal to 20");
+		} else System.out.println("The number y is greater than or equal to 0 and less than or equal to 20");
+		
+		if (y != 0) {System.out.println("y must be 20");}
+		else System.out.println("y must be 0");
+		else System.out.println("y must be 0");
+		
+		
+		
+		
+		
+	} /* end main method */
+	
+	public static String dayofweek ( int day ) {
+		
+	     String daynumber;
+	 
+	switch(day){    // switch case
+	case 1: daynumber = "Monday";  	break;
+	case 2: daynumber = "Tuesday"; 	break;
+	case 3: daynumber = "Wednesday";break;
+	case 4: daynumber = "Thursday"; break;
+	case 5: daynumber = "Friday"; 	break;
+	 
+	default: daynumber = "invalid index"; break; //default case
+	     }
+	  System.out.println(daynumber);
+	  return daynumber;
+	     } 
+	
+	
+	}
