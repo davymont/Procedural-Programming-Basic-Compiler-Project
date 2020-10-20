@@ -12,4 +12,6 @@ Run Q5.java file
 
 Watch the magic happen
 
+[![screenshot-of-result.png](https://i.postimg.cc/ZRXQSQdF/screenshot-of-result.png)](https://postimg.cc/9RtbPJ1r)
+
 # Procedural Programming Basic Compiler Project
